@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USB_POLLING_INTERVAL_MS 1
 #define DEBOUNCE 5
 
-#define RGBLIGHT_SLEEP // Turn off leds when USB goes to sleep
+#define RGB_DISABLE_WHEN_USB_SUSPENDED
 #define RGB_MATRIX_KEYPRESSES
 
 // RGB Matrix Animation modes. Explicitly enabled

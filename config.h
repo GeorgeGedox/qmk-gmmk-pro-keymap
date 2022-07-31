@@ -16,9 +16,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
+// Force n-key rollover
+#define FORCE_NKRO
 
+// Polling interval
 #define USB_POLLING_INTERVAL_MS 1
+
+// Debounce settings
+#define DEBOUNCE_TYPE = asym_eager_defer_pk
 #define DEBOUNCE 5
 
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
